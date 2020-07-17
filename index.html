@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#research" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RESEARCH</a>
+    <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PROJECTS</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#research" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">RESEARCH</a>
+  <a href="#projects" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PROJECTS</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="./satellite.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Satellite Communication</h3>
+      <p><b>For a long distance communication, even with outter space!</b></p>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="./satelliteConstellation.jpeg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>GNSS positioning</h3>
+      <p><b>To know where and when something is located!</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="./telecommunications.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Telecommunications</h3>
+      <p><b>To be able to communicate with your beloved ones without being close to each other!</b></p>    
+    </div>
+  </div>
+
+  <!-- The Paul Section -->
+  <div class="w3-black" id="Paul">
+    <div class="w3-container w3-content w3-center w3-padding-64" >
+      <h2 class="w3-wide">ABOUT PAUL</h2>
+      <p class="w3-opacity"><i>Short Bio</i></p>
+      <p class="w3-justify">Paul Zabalegui received the M.Sc. degree in Telecommunications Engineering from TECNUN (School of Engineering of San Sebastián), Spain, in 2019. He joined the CEIT-BRTA Research Centre in San Sebastián in 2019, and he is currently a Researcher Assistant and Ph.D. student within the Transport and Sustainable Mobility group. His research activity lies in the field of positioning and software development. He is now actively participating in H2020 European funded projects in Railway signaling and positioning topics.</p>
+      <div class="w3-row w3-padding-32">
+        <div class="w3-third">
+          <p>Paul</p>
+          <img src="./CeitRailway-17.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+        </div>
+        <div class="w3-third">
+          <p>Tecnun</p>
+          <img src="./Tecnun_logo.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+        </div>
+        <div class="w3-third">
+          <p>Ceit-BRTA</p>
+          <img src="Ceit_logo.jpg" class="w3-round" alt="Random Name" style="width:60%">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Research Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="research">
+    <h2 class="w3-wide">RESEARCH</h2>
+	<h3 class="w3-wide">JOURNAL ARTICLES</h3>
+	<p class="w3-medium">IEEE Access: <a href="https://ieeexplore.ieee.org/document/9019849" target="_blank">A Review of the Evolution of the Integrity Methods Applied in GNSS</a></p>
+	<h3 class="w3-wide">CONFERENCE ARTICLES</h3>
+	<p class="w3-medium">Annual of navigation, The Journal of Polish Navigational Forum: <a href="https://doi.org/10.1515/aon-2019-0003" target="_blank">AIOSAT - Autonomous Indoor & Outdoor Safety Tracking System</a></p>
+  </div>
+
+  <!-- The Projects Section -->
+  <div class="w3-black" id="projects">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">PROJECTS</h2>
+      <p class="w3-opacity w3-center"><i>HAVE A LOOK TO THE PROJECTS IN WHICH PAUL HAS COLLABORATED!</i></p><br>
+
+      <ul class="w3-ul w3-border w3-white w3-text-grey">
+        <li class="w3-padding">CAF-COMPASS <span class="w3-tag w3-red w3-margin-left">ENDED</span></li>
+        <li class="w3-padding">FR8RAIL-II <span class="w3-badge w3-right w3-margin-right">On Going</span></li>
+        <li class="w3-padding">SIA <span class="w3-badge w3-right w3-margin-right">On Going</span></li>
+		<li class="w3-padding">AIOSAT <span class="w3-badge w3-right w3-margin-right">On Going</span></li>
+		<li class="w3-padding">TECNUN <span class="w3-badge w3-right w3-margin-right">On Going</span></li>
+      </ul>
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="/w3images/newyork.jpg" alt="Local project" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>CAF-COMPASS</b></p>
+            <p class="w3-opacity">2019-2020</p>
+            <p>Design of a GNSS positioning algorithm.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('Know More').style.display='block'">Know More</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="/w3images/paris.jpg" alt="European project" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>FR8RAIL-II</b></p>
+            <p class="w3-opacity">2018-2021</p>
+            <p>Design of a multi-sensor positioning algorithm.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('Know More').style.display='block'">Know More</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="/w3images/sanfran.jpg" alt="European project" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>SIA</b></p>
+            <p class="w3-opacity">2018-2020</p>
+            <p>Design of a datahub for the barebone of a train positioning system.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('Know More').style.display='block'">Know More</button>
+          </div>
+        </div>
+		<div class="w3-third w3-margin-bottom">
+          <img src="/w3images/sanfran.jpg" alt="European project" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>AIOSAT</b></p>
+            <p class="w3-opacity">2018-2020</p>
+            <p>Design of a multisensor positioning system for firefighter's safety improvement.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('Know More').style.display='block'">Know More</button>
+          </div>
+        </div>
+		<div class="w3-third w3-margin-bottom">
+          <img src="/w3images/sanfran.jpg" alt="Local project" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>TECNUN</b></p>
+            <p class="w3-opacity">2019-2020</p>
+            <p>Teacher's assistant in a master level subject called Radiocommunications.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('Know More').style.display='block'">Know More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Questions Modal -->
+  <div id="Know More" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('Know More').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">&times;</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Know More</h2>
+      </header>
+      <div class="w3-container">
+        <p><label> Your question</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="What would you like to know?">
+        <p><label><i class="fa fa-user"></i> Answer To</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter your email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">ASK <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('Know More').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Interested? Drop a note!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Donostia - San Sebastián, Spain<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +34 619528908<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: pzabalegui@ceit.es<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+    
+  <p class="w3-medium"><a href="https://orcid.org/0000-0003-0906-1654" target="_blank">Orcid</a></p>											
+  <p class="fa fa-linkedin w3-hover-opacity"><a href="https://www.linkedin.com/in/paul-zabalegui/" target="_blank"></p>
+  <p class="w3-medium">Web page designed for the subject of: Informatics for reseach</p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('Know More');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
