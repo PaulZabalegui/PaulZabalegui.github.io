@@ -17,6 +17,12 @@ body {font-family: "Lato", sans-serif}
     object-fit: cover;
 }
 
+.background {
+    width:  screen.width;
+    height: 100px;
+    object-fit: cover;
+}
+
 .btn{
 margin-top : 25px;
 }
@@ -210,7 +216,7 @@ margin-top : 25px;
         <i class="fa fa-envelope" style="width:30px"> </i> Email: pzabalegui@ceit.es<br>
       </div>
       <div class="w3-col m6">
-        <form action="/action_page.php" target="_blank">
+        <form action="mailto:someone@example.com" method="post" enctype="text/plain">
           <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
             <div class="w3-half">
               <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
