@@ -4,6 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
 <style>
 </style>
 <body>
@@ -149,7 +153,7 @@
         <p class="w3-opacity">320 m2 de nave</p>
         <p class="w3-opacity">120 m2 de oficinas</p>
         <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-        <button class="w3-button w3-dark-gray w3-margin-bottom" onclick="document.getElementById('solicitarInfo').style.display='block'">Solicitar información</button>
+        <button class="w3-button w3-dark-gray w3-margin-bottom" onclick="document.getElementById('solicitarInfo').style.display='block'">Más información</button>
       </div>
     </div>
     <div class="w3-third w3-margin-bottom">
@@ -168,7 +172,7 @@
         <p><b>Nave 4</b></p>
         <p class="w3-opacity">1000 m2 de nave</p>
         <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-        <button class="w3-button w3-dark-gray w3-margin-bottom" onclick="document.getElementById('solicitarInfo').style.display='block'">Solicitar información</button>
+        <button class="w3-button w3-dark-gray w3-margin-bottom" onclick="document.getElementById('solicitarInfo').style.display='block'">Más información</button>
       </div>
       
     </div>
@@ -219,7 +223,6 @@
               <p>Nave 4</p>
             </div>
           </div>
-      </div>
       <div class="w3-row-padding w3-section">
         <div class="w3-col s3">
           <img class="demo w3-opacity w3-hover-opacity-off" src="./Sintagmal.png" style="width:100%;cursor:pointer" onclick="currentDiv(1)" title="Nave 1">
@@ -234,6 +237,15 @@
           <img class="demo w3-opacity w3-hover-opacity-off" src="./Sintagmal.png" style="width:100%;cursor:pointer" onclick="currentDiv(4)" title="Nave 4">
         </div>
       </div>
+      <div class="w3-container">
+        <h4 class="w3-border-bottom w3-border-dark-grey"><strong>Características</strong></h4>
+          <div class="w3-col s6">
+            <p><i class="fa fa-building" aria-hidden="true"></i> 420m2</p>
+            <p><i class="fa fa-laptop" aria-hidden="true"></i> 120m2 de oficinas</p>
+          <p><i class="fa fa-wheelchair" aria-hidden="true"></i> Baños habilitados</p>      
+          </div>
+        </div>
+  </div>  
     </div>
   </div>
 
@@ -242,7 +254,7 @@
 
   <!-- About Section -->
   <div class="w3-container w3-padding-16 w3-white w3-border-dark-grey" id="QuienesSomos">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-small">Quiénes somos</h3>
+    <h3 class="w3-border-bottom w3-border-dark-grey w3-padding-small">Quiénes somos</h3>
     <p>Promociones Aralan SL es una empresa familiar que lleva más de 25 años en el negocio del alquiler y la compraventa de naves industriales en Gipuzkoa.
     </p>
   </div>
@@ -251,18 +263,14 @@
   <div class="w3-content w3-padding-32 w3-light-grey" style="max-width:1564px"></div>
   
   <!-- Contact Section -->
-  <div class="w3-container w3-padding-32" id="Contacto">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contacto</h3>
+  <div class="w3-container w3-padding-16 w3-white w3-border-dark-grey" id="Contacto">
+    <h3 class="w3-border-bottom w3-border-dark-grey w3-padding-16 w3-white">Contacto</h3>
     <p>Póngase en contacto con nosotros.</p>
-    <form action="/action_page.php" target="_blank">
-      <input class="w3-input w3-border" type="text" placeholder="Nombre y apellidos" required name="Nombre y apellidos">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Concepto" required name="Concepto">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Texto" required name="Texto">
-      <button class="w3-button w3-black w3-section" type="submit">
-        <i class="fa fa-paper-plane"></i> ENVIAR MENSAJE
-      </button>
-    </form>
+    <div class="w3-col m6 w3-large w3-margin-bottom">
+      <i class="fa fa-map-marker" style="width:30px"></i> Donostia - San Sebastián, Gipuzkoa<br>
+      <i class="fa fa-phone" style="width:30px"></i> Phone: +34 619 41 80 42<br>
+      <i class="fa fa-envelope" style="width:30px"> </i> Email: aralan@euskalnet.net<br>
+    </div>
   </div>
   
 <!-- End page content -->
